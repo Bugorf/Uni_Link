@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.uni.link">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <application
+        android:name="com.uni.link.UL"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/DankTheme"
+        tools:ignore="AllowBackup"
+        tools:replace="android:theme">
+        <activity android:name="com.uni.link.ui.activities.ReportsActivity"></activity>
+        <activity
+            android:name="com.uni.link.ui.activities.SplashActivity"
+            android:configChanges="orientation"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:exported="true"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uni.link.ui.activities.MainActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.uni.link.ui.activities.PostMemeActivity"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.uni.link.ui.activities.ProfileActivity" />
+        <activity android:name="com.uni.link.ui.activities.MemeActivity" />
+        <activity
+            android:name="com.uni.link.ui.activities.CommentActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.uni.link.ui.activities.ViewMemeActivity" />
+        <activity android:name="com.uni.link.ui.activities.PendingMemesActivity" />
+        <activity android:name="com.uni.link.ui.activities.ChatActivity"></activity>
+        <activity
+            android:name="com.uni.link.ui.base.BaseActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name="com.uni.link.ui.activities.LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.uni.link.ui.activities.EditProfileActivity"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service android:name="com.uni.link.utils.services.MyFirebaseMessagingService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notif" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+</manifest>

@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Uni Link</string>
+
+    <!-- Fragment titles-->
+    <string name="fragment_home">Home</string>
+    <string name="fragment_faves">Favorites</string>
+    <string name="fragment_notifications">Messagerie</string>
+    <string name="fragment_profile">Profile</string>
+
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_native_ad_id">ca-app-pub-3940256099942544/2247696110</string>
+
+    <!-- Menu labels-->
+    <string name="menu_save">Enregistrer</string>
+    <string name="menu_share">Partager</string>30
+    <string name="menu_delete">Supprimer</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_post_meme">Partager</string>
+    <string name="menu_edit_profile">Modifier Profile</string>
+    <string name="menu_add_memes">Ajouter</string>
+
+    <!-- TextView labels-->
+    <string name="label_member">Déjà possède un compte?</string>
+    <string name="label_not_member">Pas encore membre ?</string>
+    <string name="label_forgot_password">MDP oublié ?</string>
+    <string name="label_register">Inscrire</string>
+    <string name="label_sign_up">Inscrire un nouveau compte</string>
+    <string name="label_username">Username</string>
+    <string name="label_bio">About Me</string>
+    <string name="label_rate_app">Rate App</string>
+    <string name="label_share_app">Share App</string>
+    <string name="label_feedback">Envoyer rapport</string>
+    <string name="label_privacy_policy">Privacy Policy</string>
+    <string name="label_reports">Reports</string>
+    <string name="label_post_memes">Partager</string>
+    <string name="label_logout">Quitter</string>
+    <string name="label_new_user">Qui est le prochain gagnant ? :)</string>
+    <string name="label_invite_body">Ok, Lets go !! Its time to go home XD</string>
+    <string name="label_memes">Memes</string>
+    <string name="label_followers">Followers</string>
+    <string name="label_following">Following</string>
+
+    <!-- Buttons labels-->
+    <string name="button_login">Login</string>
+    <string name="button_update_profile">Update Profile</string>
+    <string name="button_follow">Follow</string>
+    <string name="button_post">Post</string>
+    <string name="button_mute_user">Mute User</string>
+
+    <!-- EditText hints-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_new_comment">Ajouter nouveau commentaire...</string>
+    <string name="hint_caption">Ecrire quelque chose...</string>
+
+    <!-- Empty State labels-->
+    <string name="empty_faves">Il y a rien ici</string>
+    <string name="empty_comments">Pesonne n\'est venu</string>
+    <string name="empty_notifications">Pas de notifications</string>
+    <string name="empty_memes">Il y a rien ici</string>
+    <string name="empty_reports">Il y a rien ici</string>
+
+    <!-- Content Description-->
+    <string name="content_image">image</string>
+    <string name="content_image_button">image button</string>
+    <string name="content_select_meme">Select meme</string>
+
+    <!-- Toolbar titles-->
+    <string name="toolbar_edit_profile">Modifier profile</string>
+    <string name="toolbar_comments">Comments</string>
+    <string name="toolbar_post_meme">Partager</string>
+    <string name="toolbar_pending_memes">Pending Memes</string>
+    <string name="toolbar_profile">Profile</string>
+    <string name="toolbar_reports">Reports</string>
+    <string name="label_terms">Terms and Conditions</string>
+
+    <!-- Intent labels-->
+    <string name="intent_invite_pals">Inviter amis...</string>
+    <string name="intent_dev_email">good@gmail.com</string>
+    <string name="intent_send_feedback">Envoyer feedback</string>
+
+    <!-- mopub setup -->
+    <string name="native_icon_image">native_icon_image</string>
+    <string name="native_main_image">native_main_image</string>
+    <string name="learn_more">Learn More</string>
+    <string name="native_privacy_information_icon_image">Privacy Information Icon image</string>
+
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="like_message">like message</string>
+    <string name="emoji">emoji</string>
+    <string name="type_your_message">Type your message</string>
+    <string name="send_message_action">send message action</string>
+
+</resources>
