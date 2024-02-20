@@ -6,8 +6,8 @@ Une application de type réseau social comme instagram.
 
 | ![Accueil](/Screenshots/Accueil.png) | ![favoris vide](/Screenshots/favoris%20vide.png) | ![favoris non vide](/Screenshots/favoris%20non%20vide.png) | ![setting](/Screenshots/setting.png) | 
 | :---: | :---: | :---: | :---: |
-| Accueil | favoris vide | favoris non vide | setting |
-| ![messagerie](/Screenshots/messagerie.png) | ![partage](/Screenshots/partage.png) | ![contact](/Screenshots/contact.png) | ![favoris vide](/Screenshots/profil%20vide.png) | 
-| messagerie | partage | contact | favoris vide |
-| ![favoris non vide](/Screenshots/profil%20non%20vide.png) | ![page inscription](/Screenshots/page%20inscription.png) | ![page connexion](/Screenshots/page%20connexion.png) | |
-| favoris non vide | page inscription | page connexion | chat |
+| Accueil | Favoris vide | Favoris non vide | Setting |
+| ![messagerie](/Screenshots/messagerie.png) | ![chat](/Screenshots/chat.jpeg) | ![contact](/Screenshots/contact.png) | ![partage](/Screenshots/partage.png) |
+| Messagerie | Chat | Contact | Partage |
+| ![favoris non vide](/Screenshots/profil%20non%20vide.png) | ![favoris vide](/Screenshots/profil%20vide.png) | ![page inscription](/Screenshots/page%20inscription.png) | ![page connexion](/Screenshots/page%20connexion.png) |
+| Profil non vide | Profil vide | Page inscription | Page connexion |
